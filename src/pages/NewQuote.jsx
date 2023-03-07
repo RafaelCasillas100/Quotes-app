@@ -9,7 +9,7 @@ const NewQuote = () => {
 
   const addQuoteHandler = (quoteData) => {
     dispatch(quotesActions.addQuote(quoteData));
-    history.replace('/quotes');
+    history.replace('/Quotes-app/quotes');
   };
 
   return (

@@ -1,7 +1,7 @@
 import { useSelector } from "react-redux";
 import { Link, Route, useParams, useRouteMatch } from "react-router-dom";
 import HighlightedQuote from '../components/quotes/HighlightedQuote';
-import Comments from '../components/comments/Comments';
+// import Comments from '../components/comments/Comments';
 
 const QuoteDetail = () => {
   const { id } = useParams();

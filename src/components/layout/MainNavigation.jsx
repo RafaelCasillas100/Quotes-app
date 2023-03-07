@@ -8,10 +8,10 @@ const MainNavigation = () => {
       <nav className={classes.nav}>
         <ul>
           <li>
-            <NavLink to="/quotes" activeClassName={classes.active} exact>All Quotes</NavLink>
+            <NavLink to="/Quotes-app/quotes" activeClassName={classes.active} exact>All Quotes</NavLink>
           </li>
           <li>
-            <NavLink to="/quotes/new" activeClassName={classes.active}>New Quote</NavLink>
+            <NavLink to="/Quotes-app/quotes/new" activeClassName={classes.active}>New Quote</NavLink>
           </li>
         </ul>
       </nav>
