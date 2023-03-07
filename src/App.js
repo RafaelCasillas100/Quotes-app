@@ -9,16 +9,16 @@ function App() {
   return (
     <Layout>
       <Switch>
-        <Route path="/Quotes-app/" exact>
-          <Redirect to="Quotes-app/quotes"></Redirect>
+        <Route path="/Quotes-app" exact>
+          <Redirect to="/Quotes-app/quotes"></Redirect>
         </Route>
-        <Route path="Quotes-app/quotes" exact>
+        <Route path="/Quotes-app/quotes" exact>
           <Quotes />
         </Route>
-        <Route path="Quotes-app/quotes/new" exact>
+        <Route path="/Quotes-app/quotes/new" exact>
           <NewQuote />
         </Route>
-        <Route path="Quotes-app/quotes/:id">
+        <Route path="/Quotes-app/quotes/:id">
           <QuoteDetail />
         </Route>
         <Route path='*'>
